@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8.7",
+  "package": "dev.optimistic.prophet.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "server": [
+    "TranslatableContentsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

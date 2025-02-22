@@ -1,7 +1,7 @@
 {
-  "id": "example",
+  "id": "prophet",
   "version": "1.0.0",
   "mixins": [
-    "mixins.example.core.json"
+    "prophet.mixins.json"
   ]
 }

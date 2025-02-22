@@ -4,8 +4,6 @@ plugins {
 
 dependencies {
   implementation(libs.build.paperweight)
-  implementation(libs.build.shadow)
-  implementation(libs.build.spotless)
 }
 
 dependencies {
