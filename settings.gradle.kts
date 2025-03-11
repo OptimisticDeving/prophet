@@ -1,7 +1,7 @@
 pluginManagement {
-  includeBuild("build-logic")
   repositories {
     gradlePluginPortal()
+    mavenCentral()
     maven("https://repo.papermc.io/repository/maven-public/")
   }
 }
@@ -9,7 +9,5 @@ pluginManagement {
 plugins {
   id("org.gradle.toolchains.foojay-resolver-convention") version "0.9.0"
 }
-
-enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 
 rootProject.name = "prophet"
